@@ -3,8 +3,8 @@ services:
  webserver: 
   image: 'tomcat:9'
   ports:
-    - "8080-8082":8080 
+    -"8080-8082":8080 
   volumes: 
-    - "/mnt/project/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"    
+    -"/mnt/project/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"    
 
 
